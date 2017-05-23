@@ -4,7 +4,7 @@ node_js:
 before_script:
 deploy:
   on:
-    repo: codehangar/flvote
+    repo: cforlando/fl-vote-org
     branch: master
   provider: heroku
   app: flvote
