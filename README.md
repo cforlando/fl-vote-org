@@ -20,3 +20,10 @@ Our team created a website, FLVote.org, to harness Twitter to influence Bills in
 The website also presents a tally of Yes and No tweets for each State Bill.
 
 View the application here: http://www.flvote.org
+
+
+# RethinkDB Database Deployment
+- Currently Hosted by Code Hangar on Digital Ocean
+- Running with docker image 2.3.5 `RETHINKDB_PACKAGE_VERSION=2.3.5~0jessie`
+- Run Command: `docker run --name flvote -v "$PWD:/data" -p 8080:8080 -p 28015:28015 -p 29015:29015 -d rethinkdb`
+- Contact @grailian for DB support issues
